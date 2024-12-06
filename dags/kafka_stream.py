@@ -1,7 +1,7 @@
 import uuid
 from datetime import datetime
 from airflow import DAG
-from airflow.operators.python import PythonOperator
+from airflow.operators.python import pythonOperator
 
 default_args = {
     'owner': 'airscholar',
